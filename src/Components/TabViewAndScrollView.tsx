@@ -128,14 +128,8 @@ export const TabViewAndScrollView = ({
 
   const onUserDragStart = (e: any) => {
     //  setUnSelected(_selectedIndex);
+    e;
     isTabSelected = false;
-  };
-  const onUserDragEnd = (e: any) => {
-    // setMakeScrollEnabelOrDisabel(true);
-  };
-
-  const onScrollAnimationEnd = () => {
-    //setSelected(_selectedIndex);
   };
 
   const scrollToPage = (pageNumTemp: number) => {

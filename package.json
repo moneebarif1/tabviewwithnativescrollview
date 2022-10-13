@@ -35,18 +35,17 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/moneebarif1/react-native-tabviewwithnativescrollview",
+  "repository": "https://github.com/moneebarif1/tabviewwithnativescrollview",
   "author": "moneebarifwego <moneeb_arif@hotmail.com> (https://www.linkedin.com/in/moneeb-arif-78890382/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/moneebarif1/react-native-tabviewwithnativescrollview/issues"
+    "url": "https://github.com/moneebarif1/tabviewwithnativescrollview/issues"
   },
-  "homepage": "https://github.com/moneebarif1/react-native-tabviewwithnativescrollview#readme",
+  "homepage": "https://github.com/moneebarif1/tabviewwithnativescrollview#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
-    "@arkweid/lefthook": "^0.7.7",
     "@babel/eslint-parser": "^7.18.2",
     "@commitlint/config-conventional": "^17.0.2",
     "@react-native-community/eslint-config": "^3.0.2",
@@ -54,7 +53,6 @@
     "@types/jest": "^28.1.2",
     "@types/react": "~17.0.21",
     "@types/react-native": "0.68.0",
-    "commitlint": "^17.0.2",
     "eslint": "^8.4.1",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",

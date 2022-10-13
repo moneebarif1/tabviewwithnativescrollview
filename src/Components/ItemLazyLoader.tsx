@@ -7,7 +7,13 @@ interface ItemLazyLoadeProps {
   isLoadingFrist?: boolean;
   item?: any;
 }
-class ItemLazyLoader extends React.PureComponent<ItemLazyLoadeProps> {
+
+type ItemState = { isSelected: boolean };
+
+class ItemLazyLoader extends React.PureComponent<
+  ItemLazyLoadeProps,
+  ItemState
+> {
   constructor(props: any) {
     super(props);
 

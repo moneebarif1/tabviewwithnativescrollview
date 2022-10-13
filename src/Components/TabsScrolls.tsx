@@ -1,7 +1,7 @@
 import React from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import FastImage from 'react-native-fast-image';
-import { Tabs } from './TabViewAndScrollView';
+import type { Tabs } from './TabViewAndScrollView';
 
 const color = {
   primary: '#e75e40',
@@ -24,7 +24,9 @@ interface TabIconsProps {
   tabFlexNotToShow?: boolean;
 }
 
-class TabScrolls extends React.PureComponent<TabIconsProps> {
+type TabState = { isSelected: boolean; moveToScroll?: boolean };
+
+class TabScrolls extends React.PureComponent<TabIconsProps, TabState> {
   constructor(props: TabIconsProps) {
     super(props);
     this.state = {
@@ -48,9 +50,9 @@ class TabScrolls extends React.PureComponent<TabIconsProps> {
   }
   componentDidUpdate(
     prevProps: Readonly<TabIconsProps>,
-    prevState: Readonly<{}>,
-    snapshot?: any
+    prevState: Readonly<TabState>
   ): void {
+    prevProps._selectedIndex;
     if (this.state.moveToScroll && !prevState.moveToScroll) {
       const scrollIndex = this.props._totalLeng
         ? this.props._totalLeng - this.props.index

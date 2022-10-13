@@ -7,8 +7,6 @@ import {
 } from 'react-native-tabviewwithnativescrollview';
 
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
-
   const getChildMap = () => {
     let sceneList: JSX.Element[] = [];
 
