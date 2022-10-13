@@ -8,7 +8,7 @@ Limitation
 ** support full width page for now
 ## Installation
 
-![ezgif-3-ad0a779226](https://user-images.githubusercontent.com/45369702/195601677-0822212d-965e-47bc-a5f0-b5ec68c4cbf4.gif)
+<a href=https://user-images.githubusercontent.com/45369702/195601677-0822212d-965e-47bc-a5f0-b5ec68c4cbf4.gif><img src=https://user-images.githubusercontent.com/45369702/195601677-0822212d-965e-47bc-a5f0-b5ec68c4cbf4.gif width="360"></a>
  
 
 ```sh
