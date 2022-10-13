@@ -15,6 +15,11 @@ Limitation
 npm install react-native-tabviewwithnativescrollview
 ```
 
+#Dependency 
+```sh
+npm i react-native-fast-image
+```
+
 ## Quick Start
 
 ```js
