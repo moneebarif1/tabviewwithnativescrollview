@@ -8,11 +8,8 @@ Limitation
 ** support full width page for now
 ## Installation
 
-
-
-https://user-images.githubusercontent.com/45369702/195595851-a2b58560-f403-4395-bbe2-4cc6c0707266.mov
-
-
+![ezgif-3-ad0a779226](https://user-images.githubusercontent.com/45369702/195601677-0822212d-965e-47bc-a5f0-b5ec68c4cbf4.gif)
+ 
 
 ```sh
 npm install react-native-tabviewwithnativescrollview
