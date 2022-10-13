@@ -8,6 +8,12 @@ Limitation
 ** support full width page for now
 ## Installation
 
+
+
+https://user-images.githubusercontent.com/45369702/195595851-a2b58560-f403-4395-bbe2-4cc6c0707266.mov
+
+
+
 ```sh
 npm install react-native-tabviewwithnativescrollview
 ```
@@ -27,6 +33,7 @@ export default function App() {
   const [result, setResult] = React.useState<number | undefined>();
 
   const getChildMap = () => {
+
     let sceneList: JSX.Element[] = [];
 
     sceneList.push(
